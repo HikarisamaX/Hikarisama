@@ -77,4 +77,4 @@
 
 地址：[HttpServletRequest利用 autowire 注入，线程安全问题 - 开源小菜鸟2333](https://my.oschina.net/u/3136014/blog/1590499)
 
----
+---# Hikarisama
