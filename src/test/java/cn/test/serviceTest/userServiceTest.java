@@ -13,7 +13,7 @@ import javax.annotation.Resource;
  * Created by jiangcaijun on 2017/6/27.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = { "classpath*:conf/spring.xml" })
+//@ContextConfiguration(locations = { "classpath*:conf/spring.xml" })
 public class userServiceTest {
 
     @Resource
@@ -56,7 +56,7 @@ public class userServiceTest {
     {
         sop("Test Method 1.");
         User user = userService.getUser("1");
-        sop(user.getUserName());
+//        sop(user.getUserName());
     }
 
     @Test

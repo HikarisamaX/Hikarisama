@@ -34,7 +34,7 @@ public class ActivemqController {
 	public String queueSender(@RequestParam("message")String message){
 		String opt="";
 		try {
-			queueSender.send("test.queue", message);
+//			queueSender.send("test.queue", message);
 			opt = "suc";
 		} catch (Exception e) {
 			opt = e.getCause().toString();
@@ -54,7 +54,7 @@ public class ActivemqController {
 	public String topicSender(@RequestParam("message")String message){
 		String opt = "";
 		try {
-			topicSender.send("test.topic", message);
+//			topicSender.send("test.topic", message);
 			opt = "suc";
 		} catch (Exception e) {
 			opt = e.getCause().toString();
