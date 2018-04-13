@@ -14,7 +14,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Created by jiangcaijun on 2017/5/23.
+ * Created by hikari on 2017/5/23.
  */
 public class redisTest {
 

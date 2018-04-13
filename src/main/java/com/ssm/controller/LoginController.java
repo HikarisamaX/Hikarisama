@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * Created by jiangcaijun on 2017/3/29.
+ * Created by hikari on 2017/3/29.
  */
 @Controller
 public class LoginController extends BaseController{
